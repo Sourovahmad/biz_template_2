@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topTitleSectionTemplate_2{
+    margin-top: 58px;
+    width: 278px;
+}
+
+#template_2_hero_section{
+    background-image: url('./image/template2.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.template_2_event_name h2{
+    font-size: 62px;
+    letter-spacing: 0;
+    line-height: 50px;
+    font-weight: bold;
+    color: #4BAEB2;
+    letter-spacing: 5px;
+
+}
+
+.company_name{
+    font-weight: bold;
+    color: #4BAEB2;
+    letter-spacing: 10px;
+}
+
+
+.template_2_event_name .training_place {
+    text-align-last:right;
+    font-weight: bold;
+    color: #4BAEB2;
+    letter-spacing: 14px;
+}
+
+
+.bottom_social_section{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    margin-bottom: 20px;
+    background-color: #85CED5;
+    width: auto;
+    border-end-end-radius: 22px;
+    border-top-right-radius: 22px;
+    margin-left: 32px;
+}
+
+.bottom_social_section .socil-icon img {
+  width: 69px;
+  height: auto;
+  padding: 10px;
+}
+
+.bottom_right_section{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    width: 700px;
+}
+
+.bottom_right_section_content{
+    float: right;
+}
+
+.bottom_right_section .logSection img{
+  height: auto;
+  padding: 10px;
+}
+
+.content-body {
+  background-color: #2a3a54;
+  padding: 20px 0 20px 20px;
+  border-radius: 20px 20px 20px  20px;
+}
+
+#timerSection{
+    margin-top: 50px;
+}
