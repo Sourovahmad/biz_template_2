@@ -78,10 +78,88 @@
 
 .content-body {
   background-color: #2a3a54;
-  padding: 20px 0 20px 20px;
+  padding: 20px;
   border-radius: 20px 20px 20px  20px;
 }
 
 #timerSection{
     margin-top: 50px;
+}
+
+
+
+ .content-body .col {
+  text-align: center;
+  border: 3px dashed #fff;
+  padding: 10px;
+}
+
+ .content-body .col .form-control {
+  display: inline;
+  width: 75%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid #eda873;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 6px;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+ .content-body .col h3 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+ .content-body .col p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+ .content-body .col .form-check .form-check-input {
+  float: none !important;
+}
+
+
+ .content-body .col label {
+  color: #fff;
+}
+
+ .content-body .col .submit {
+  color: #ffc192;
+  font-size: 18px;
+  padding: 10px 60px;
+  border-radius: 10px;
+  color: #fff;
+
+}
+
+#registarSection{
+    position: relative;
+}
+
+
+.modalBodyTextSection{
+text-align: left;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.modalBodyTextSection p{
+    line-height: 2.5;
+    font-weight: 400;
 }
