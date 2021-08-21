@@ -163,3 +163,28 @@ text-align: left;
     line-height: 2.5;
     font-weight: 400;
 }
+
+@media only screen and (max-width:729px) {
+    .bottom_social_section{
+        position: inherit;
+        margin:10px;
+    }
+
+    .bottom_right_section{
+        position:inherit;
+        width: 100%;
+        overflow: hidden;
+        margin: 10px;
+        justify-content: center;
+        float: none;
+        text-align: center !important;
+    }
+
+    .bottom_right_section_content{
+        float:none;
+    }
+
+    #fullScreenSize{
+        height: 700px;
+    }
+}
