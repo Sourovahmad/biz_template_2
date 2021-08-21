@@ -256,6 +256,7 @@ text-align: left;
 
 #sectionForRegistarButton .modal-dialog .modal-content label {
   font-weight: 500;
+  float: left;
 }
 
 #sectionForRegistarButton .modal-dialog .modal-content .form-control {
