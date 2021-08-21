@@ -168,6 +168,7 @@ text-align: left;
     .bottom_social_section{
         position: inherit;
         margin:10px;
+        border-radius: 20px;
     }
 
     .bottom_right_section{
