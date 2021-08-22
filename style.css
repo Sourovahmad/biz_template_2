@@ -40,13 +40,12 @@
 
 
 .topTitleSectionTemplate_2{
-    margin-top: 16px;
     width: 278px;
 }
 
 #template_2_hero_section{
     background-image: url('./image/template2.jpg');
-    background-position: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
@@ -78,15 +77,13 @@
 
 .bottom_social_section{
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left:0;
-    margin-bottom: 20px;
+    margin-top: 25px;
     background-color: #85CED5;
     width: auto;
     border-end-end-radius: 22px;
     border-top-right-radius: 22px;
-    margin-left: 32px;
+    margin-left: -62px;
+    overflow: hidden;
 }
 
 .bottom_social_section .socil-icon img {
@@ -96,7 +93,6 @@
 }
 
 .bottom_right_section{
-    position: absolute;
     bottom: 0;
     right: 0;
     margin-bottom: 20px;
@@ -205,6 +201,7 @@ text-align: left;
         position: inherit;
         margin:10px;
         border-radius: 20px;
+        margin-left: 10px;
     }
 
     .bottom_right_section{
